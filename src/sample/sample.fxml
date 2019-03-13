@@ -30,7 +30,7 @@
          <top>
             <TextField BorderPane.alignment="CENTER" />
          </top></BorderPane>
-      <Button alignment="CENTER" mnemonicParsing="false" onAction="#Submit" prefHeight="31.0" text="Submit" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+      <Button fx:id="tipka" alignment="CENTER" mnemonicParsing="false" onAction="#akcija" prefHeight="31.0" text="Submit" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
@@ -40,11 +40,12 @@
             <Font name="MS Reference Specialty" size="20.0" />
          </font>
       </Label>
-      <TextField GridPane.columnIndex="2" GridPane.rowIndex="1" />
+      <TextField fx:id="name" GridPane.columnIndex="2" GridPane.rowIndex="1" />
       <Label text="Full Name:" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
       <Label text="Email Address:" GridPane.columnIndex="1" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
       <Label text="Password:" GridPane.columnIndex="1" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
       <PasswordField GridPane.columnIndex="2" GridPane.rowIndex="3" />
+      <Label fx:id="ispis" alignment="CENTER_RIGHT" contentDisplay="RIGHT" prefHeight="21.0" prefWidth="47.0" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="4" />
    </children>
    <padding>
       <Insets left="-10.0" />
